@@ -1,12 +1,12 @@
-##WEare Social Network Testing
+## WEare Social Network Testing
 
-##Overview
+## Overview
 
 This repository contains the testing project for the social network web application WEare. The application enables users to connect with others, share posts, and interact with content on a personalized feed.
 
 The primary tasks of this project include performing functional and non-functional testing to ensure the application meets both its requirements and user expectations. Both manual and automated testing approaches have been utilized.
 
-##Features of WEare
+## Features of WEare
 
 WEare provides the following key functionalities:
 
@@ -28,11 +28,11 @@ Get a feed of the newest and most relevant posts from your connections.
 
 View updates and interactions in real time.
 
-##Testing Types
+## Testing Types
 
 The testing process covers both functional and non-functional aspects of the application:
 
-##Functional Testing
+## Functional Testing
 
 Functional testing verifies that the application performs as expected under various scenarios. Key functional areas tested include:
 
@@ -44,7 +44,7 @@ Posting, commenting, and liking workflows.
 
 Feed generation and content relevance.
 
-##Non-Functional Testing
+## Non-Functional Testing
 
 Non-functional testing evaluates the application's performance, reliability, usability, and other quality attributes. Key aspects tested include:
 
@@ -54,7 +54,7 @@ Response times for key actions such as posting and loading the feed.
 
 Security testing to identify vulnerabilities in user data handling.
 
-##Testing Approaches
+## Testing Approaches
 
 Manual Testing
 
@@ -62,7 +62,7 @@ Comprehensive test cases were created to validate core functionalities and edge 
 
 Exploratory testing was conducted to uncover unexpected issues.
 
-##Automation Testing
+## Automation Testing
 
 Test scripts were developed using Selenium Webdriver, Postman.
 
