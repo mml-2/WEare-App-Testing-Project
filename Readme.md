@@ -1,27 +1,69 @@
-## Description
+##WEare Social Network Testing
 
-This project structure represents a Test Automation Framework. The main components are organized as follows:
+##Overview
 
-### Core Package
-- `BaseApiService.java`: Contains base methods for API services.
-- `BaseApiTest.java`: Includes common setup and teardown methods for API tests.
-- `BaseWebPage.java`: Contains base methods for web page interactions.
-- `BaseWebTest.java`: Includes common setup and teardown methods for web tests.
+This repository contains the testing project for the social network web application WEare. The application enables users to connect with others, share posts, and interact with content on a personalized feed.
 
-### Enums Package
-- `BrowserMode.java`: Enum for different browser modes (e.g., headless, normal).
-- `BrowserType.java`: Enum for supported browser types.
-- `FrameworkSettings.java`: Enum for framework configuration settings.
-- `Driver.java`: Class for managing the WebDriver instance.
-- `DriverManager.java`: Manages WebDriver creation and lifecycle.
-- `PropertiesManager.java`: Manages framework properties and configurations.
+The primary tasks of this project include performing functional and non-functional testing to ensure the application meets both its requirements and user expectations. Both manual and automated testing approaches have been utilized.
 
-### Resources
-The `resources` folder configuration files, test data, or other non-Java resources.
+##Features of WEare
 
-### Test
-The `test` folder is where test classes would be placed, following a similar package structure as the `main` folder.
+WEare provides the following key functionalities:
 
-## Usage
+Connecting with People
 
-This framework supports both API and Web testing, with a focus on providing base classes and utilities for test creation and execution. Developers can extend the base classes and utilize the provided enums and managers to create robust and maintainable automated tests.
+Add and manage connections.
+
+View connection recommendations.
+
+Creating, Commenting, and Liking Posts
+
+Publish posts with text and multimedia.
+
+Engage with posts by liking and commenting.
+
+Personalized Feed
+
+Get a feed of the newest and most relevant posts from your connections.
+
+View updates and interactions in real time.
+
+##Testing Types
+
+The testing process covers both functional and non-functional aspects of the application:
+
+##Functional Testing
+
+Functional testing verifies that the application performs as expected under various scenarios. Key functional areas tested include:
+
+User registration and login functionality.
+
+Adding, accepting, and removing connections.
+
+Posting, commenting, and liking workflows.
+
+Feed generation and content relevance.
+
+##Non-Functional Testing
+
+Non-functional testing evaluates the application's performance, reliability, usability, and other quality attributes. Key aspects tested include:
+
+Load and stress handling during high traffic periods.
+
+Response times for key actions such as posting and loading the feed.
+
+Security testing to identify vulnerabilities in user data handling.
+
+##Testing Approaches
+
+Manual Testing
+
+Comprehensive test cases were created to validate core functionalities and edge cases.
+
+Exploratory testing was conducted to uncover unexpected issues.
+
+##Automation Testing
+
+Test scripts were developed using Selenium Webdriver, Postman.
+
+Automated regression tests ensure consistent behavior across updates.
