@@ -93,4 +93,4 @@ Security testing to identify vulnerabilities in user data handling.
 - IntelliJ IDEA or GitHub 
 - Access to the folder with the testing files (for the upload functionality tests)
 
-## This project is the result of close collaboration between a team of 3 students.
+This project is the result of collaboration between a team of 3 students.
