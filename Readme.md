@@ -91,4 +91,6 @@ Security testing to identify vulnerabilities in user data handling.
 - A stable and reliable network connection 
 - Docker desktop installed 
 - IntelliJ IDEA or GitHub 
-- Access to the folder with the testing files (for the upload functionality tests) 
+- Access to the folder with the testing files (for the upload functionality tests)
+
+## This project is the result of close collaboration between a team of 3 students.
